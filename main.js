@@ -22,12 +22,20 @@ var createOutputDirAndRunTest = function(dirName, sample){
 	    var label = sample['label'];
 		doRunTest(sample['siteUrl'], label, dirName, "sans-wope");
 		doRunTest(sample['wopeUrl'], label, dirName, "avec-wope");
-		doListen();
 	});
 }
 
 var doRunTest = function(url, label, dirName, fileSuffix) {
-	wpt.runTest('http://www.darty.com/', {"key":"217ca6cd335a4e398145d62fa73f078c", "runs":runs, "userAgent" : ua}, function(err, data) {
+
+	var options = {
+		"key"         :"217ca6cd335a4e398145d62fa73f078c", 
+		"runs"        : runs, 
+		"userAgent"   : ua,
+		"pingback"    : "http://wpt.bk.wope-framework.com:7791",
+		"waitResults" : "localhost:7791"
+	};
+
+	wpt.runTest('http://www.darty.com/', options, function(err, data) {
 		console.log(err || data);
 		if(err){
 			console.error(err);
@@ -51,9 +59,12 @@ var doRunTest = function(url, label, dirName, fileSuffix) {
 }
 
 var doListen = function(){
-	var server = wpt.listen(7791, function(err, data) {
+	var server = wpt.listen("http://wpt.bk.wope-framework.com:7791", function(err, data) {
 	    if (err) throw err;
+
 	    console.log('listening on ' + data.url);
+
+
 	}); // listen on port 8080 (optional), default port is 7791
 }
 
