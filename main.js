@@ -22,6 +22,7 @@ var createOutputDirAndRunTest = function(dirName, sample){
 	    var label = sample['label'];
 		doRunTest(sample['siteUrl'], label, dirName, "sans-wope");
 		doRunTest(sample['wopeUrl'], label, dirName, "avec-wope");
+		doListen();
 	});
 }
 
@@ -49,6 +50,12 @@ var doRunTest = function(url, label, dirName, fileSuffix) {
 	});
 }
 
+var doListen = function(){
+	var server = wpt.listen(7791, function(err, data) {
+	    if (err) throw err;
+	    console.log('listening on ' + data.url);
+	}); // listen on port 8080 (optional), default port is 7791
+}
 
 //create a unique output folder
 var now = new Date();
