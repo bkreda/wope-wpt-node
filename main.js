@@ -6,8 +6,9 @@ var WebPageTest = require("webpagetest");
 
 var wpt = new WebPageTest('www.webpagetest.org');
 
-//chang me
+//Change me
 var runs = 1;    //5 use odd for better median.
+var port = 80;
 
 var ua = "Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.3 (KHTML, like Gecko) Version/8.0 Mobile/12A4345d Safari/600.1.4";
 
@@ -31,8 +32,8 @@ var doRunTest = function(url, label, dirName, fileSuffix) {
 		"key"         :"217ca6cd335a4e398145d62fa73f078c", 
 		"runs"        : runs, 
 		"userAgent"   : ua,
-		"pingback"    : "http://wpt.bk.wope-framework.com:7791",
-		"waitResults" : "localhost:7791"
+		"pingback"    : "http://wpt.bk.wope-framework.com:" + port,
+		"waitResults" : "localhost:" + port
 	};
 
 	wpt.runTest('http://www.darty.com/', options, function(err, data) {
@@ -56,16 +57,6 @@ var doRunTest = function(url, label, dirName, fileSuffix) {
 		    }
 		});
 	});
-}
-
-var doListen = function(){
-	var server = wpt.listen("http://wpt.bk.wope-framework.com:7791", function(err, data) {
-	    if (err) throw err;
-
-	    console.log('listening on ' + data.url);
-
-
-	}); // listen on port 8080 (optional), default port is 7791
 }
 
 //create a unique output folder
