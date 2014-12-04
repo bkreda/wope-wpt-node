@@ -1,6 +1,6 @@
-var fs = require('fs');
-var mkdirp = require('mkdirp');
-var dateFormat = require('dateformat');
+var fs 		    = require('fs');
+var mkdirp      = require('mkdirp');
+var dateFormat  = require('dateformat');
 
 var WebPageTest = require("webpagetest");
 
@@ -21,22 +21,35 @@ var createOutputDirAndRunTest = function(dirName, sample){
 	    }
 
 	    var label = sample['label'];
-		doRunTest(sample['siteUrl'], label, dirName, "sans-wope");
-		doRunTest(sample['wopeUrl'], label, dirName, "avec-wope");
-	});
-}
+		
+		doRunTest({
+			"url"     : sample['siteUrl'], 
+			"label"   : label, 
+			"dirName" : dirName, 
+			"suffix"  : "sans-wope"
+		});
 
-var doRunTest = function(url, label, dirName, fileSuffix) {
+		doRunTest({
+			"url"     : sample['wopeUrl'], 
+			"label"   : label, 
+			"dirName" : dirName, 
+			"suffix"  : "avec-wope"
+		});
+	});
+};
+
+var doRunTest = function(args) {
 
 	var options = {
 		"key"         :"217ca6cd335a4e398145d62fa73f078c", 
 		"runs"        : runs, 
 		"userAgent"   : ua,
-		"pingback"    : "http://wpt.bk.wope-framework.com:" + port,
-		"waitResults" : "localhost:" + port
 	};
+		// "pingback"    : "http://wpt.bk.wope-framework.com:" + port,
+		// "waitResults" : "localhost:" + port
+		
 
-	wpt.runTest('http://www.darty.com/', options, function(err, data) {
+	wpt.runTest(args.url, options, function(err, data) {
 		console.log(err || data);
 		if(err){
 			console.error(err);
@@ -46,7 +59,7 @@ var doRunTest = function(url, label, dirName, fileSuffix) {
 		var testId = data.data.testId;
 		console.log("testId: " + testId);			
 
-		var filename = dirName + "/" + testId + "-" + fileSuffix + ".json";
+		var filename = args.dirName + "/" + testId + "-" + args.suffix + ".json";
 		console.log(filename);
 		
 		fs.writeFile(filename, JSON.stringify(data), function(err) {
@@ -57,7 +70,7 @@ var doRunTest = function(url, label, dirName, fileSuffix) {
 		    }
 		});
 	});
-}
+};
 
 //create a unique output folder
 var now = new Date();
