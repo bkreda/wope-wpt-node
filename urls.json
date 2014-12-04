@@ -1,7 +1,12 @@
 [
     { 
         "siteUrl" : "http://mobile.francetvinfo.fr/en-direct/",
-        "wopeUrl" : "http://francetvinfomobile.trial61.wope.mobi/en-direct/",
+        "wopeUrl" : "http://mobile.francetvinfo.fr/en-direct/",
         "label"   : "francetvmobile"
+    },
+    { 
+        "siteUrl" : "http://www.leboncoin.fr/",
+        "wopeUrl" : "http://www.leboncoin.fr/",
+        "label"   : "leboncoin"
     }
 ]

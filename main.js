@@ -57,7 +57,6 @@ var doRunTest = function(args) {
 		}
 
 		var testId = data.data.testId;
-		console.log("testId: " + testId);			
 
 		var filename = args.dirName + "/" + testId + "-" + args.suffix + ".json";
 		console.log(filename);
@@ -82,5 +81,5 @@ console.log(dirName);
 var urls = require('./urls.json');
 for (var i = 0; i < urls.length; i++) {
 	var sample = urls[i];
-	createOutputDirAndRunTest(dirName, sample);
+	createOutputDirAndRunTest(dirName + "/" + sample.label, sample);
 };
