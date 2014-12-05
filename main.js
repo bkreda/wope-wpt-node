@@ -44,9 +44,9 @@ var doRunTest = function(args) {
 		"key"         :"217ca6cd335a4e398145d62fa73f078c", 
 		"runs"        : runs, 
 		"userAgent"   : ua,
+		"pingback"    : "http://wpt.bk.wope-framework.com:" + port,
+		"waitResults" : "localhost:" + port
 	};
-		// "pingback"    : "http://wpt.bk.wope-framework.com:" + port,
-		// "waitResults" : "localhost:" + port
 		
 
 	wpt.runTest(args.url, options, function(err, data) {
