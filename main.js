@@ -61,6 +61,8 @@ var doRunTest = function(args) {
 		var filename = args.dirName + "/" + testId + "-" + args.suffix + ".json";
 		console.log(filename);
 		
+		data.label = args.label;
+		
 		fs.writeFile(filename, JSON.stringify(data), function(err) {
 		    if(err) {
 		        console.log(err);

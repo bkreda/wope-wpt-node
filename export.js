@@ -2,19 +2,14 @@ var request = require('request');
 var walk    = require('walk');
 var files   = [];
 
-var loadTimesSansWope = [];
-var renderTimesSansWope = [];
-
-var loadtimesAvecWope = [];
-var rendertimesAvecWope = [];
-
+var dataBySite = [];
 
 var saveResultsToDisk = function(){
 	console.log("FINISH");
-	// TODO need to find a way to get rid of associative arrays.
+	
 }
 
-var extract = function(url, fileName){
+var extract = function(url, fileName, label){
 
 	request(url, function (error, response, body) {
 	    if (!error && response.statusCode == 200) {
@@ -27,18 +22,22 @@ var extract = function(url, fileName){
 	        //remove suffix
 	        if(fileName.indexOf("-sans-wope") > -1){
 
-	        	var testId = fileName.replace("-sans-wope.json", "");
-	        	loadTimesSansWope[testId]  = json.data.average.firstView.loadTime;
-				renderTimesSansWope[testId]= json.data.average.firstView.render;
+	        	var testId  = fileName.replace("-sans-wope.json", "");
+	        	var testType= "sans";
+
 	        }else{
 
-				var testId = fileName.replace("-avec-wope.json", "");
-	        	loadtimesAvecWope[testId]  = json.data.average.firstView.loadTime;	        	
-	        	rendertimesAvecWope[testId]= json.data.average.firstView.render;
+				var testId  = fileName.replace("-avec-wope.json", "");
+				var testType= "avec";
 	        }
+
+	        var dataOfSite = dataBySite[label] || {};    //read
+			dataOfSite[testType].loadTime = json.data.average.firstView.loadTime;
+			dataOfSite[testType].render   = json.data.average.firstView.render;
+			dataBySite[label] = dataOfSite;    			 //write
 	        
 
-	        if(Object.keys(loadTimesSansWope).length * 2 === files.length){
+	        if(Object.keys(dataBySite).length * 2 === files.length){
 	        	saveResultsToDisk();
 	        }
 	    }
@@ -59,8 +58,6 @@ var walkerOptions = {
 
 	    'file' : function(root, stat, next) {
 		    // Add this file to the list of files
-		    console.log("stat:", stat);
-		    
 		    //console.log(root + '/' + stat.name);
 		    files.push({
 		    	"name" : stat.name,
@@ -73,8 +70,8 @@ var walkerOptions = {
 		    for (var i = 0; i < files.length; i++) {
 		    	
 		    	var metaResult = require(files[i].path);
-				
-				extract(metaResult.data.jsonUrl, files[i].name);
+				console.log(files[i]);
+				extract(metaResult.data.jsonUrl, files[i].name, metaResult.data.label);
 		    };
 		}
 	}
