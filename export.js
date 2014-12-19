@@ -59,6 +59,8 @@ var walkerOptions = {
 
 	    'file' : function(root, stat, next) {
 		    // Add this file to the list of files
+		    console.log("stat:", stat);
+		    
 		    //console.log(root + '/' + stat.name);
 		    files.push({
 		    	"name" : stat.name,
