@@ -6,9 +6,25 @@ var dataBySite = [];
 
 var saveResultsToDisk = function(){
 	console.log("FINISH");
+
+	console.log("\n");
+	console.log("loadTime");
+	console.log("--------\n");
+	console.log("sans ---------- | ---------- avec");
+
+	for (var key in dataBySite) {
+	  if (dataBySite.hasOwnProperty(key)) {
+	  	  console.log("key: " + key);
+	      var loadTimeSans = dataBySite[key]["sans"]["loadTime"];
+	      var loadTimeAvec = dataBySite[key]["avec"]["loadTime"];
+	      //var render   = dataBySite[key]["sans"]["render"];
+	      console.log(loadTimeSans + " ---------- | ---------- " + loadTimeAvec);
+	  }
+	}
 	
 }
 
+var exec_count = 0;
 var extract = function(url, fileName, label){
 
 	request(url, function (error, response, body) {
@@ -31,13 +47,21 @@ var extract = function(url, fileName, label){
 				var testType= "avec";
 	        }
 
-	        var dataOfSite = dataBySite[label] || {};    //read
+	        var dataOfSite 		 = dataBySite[label]    || {};    //read
+	        dataOfSite[testType] = dataOfSite[testType] || {};
+
 			dataOfSite[testType].loadTime = json.data.average.firstView.loadTime;
 			dataOfSite[testType].render   = json.data.average.firstView.render;
+
 			dataBySite[label] = dataOfSite;    			 //write
 	        
 
-	        if(Object.keys(dataBySite).length * 2 === files.length){
+			console.log("label: " + label);
+			console.log("Object.keys(dataBySite).length: " + Object.keys(dataBySite).length);
+			console.log("files.length: " + files.length);
+
+			exec_count++;
+	        if(exec_count === files.length){
 	        	saveResultsToDisk();
 	        }
 	    }

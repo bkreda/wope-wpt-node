@@ -1,1 +1,858 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"getPackageName"
+			],
+			[
+				"dist",
+				"distName"
+			],
+			[
+				"de",
+				"deploy_files_and_run_sql"
+			],
+			[
+				"modu",
+				"module_dir"
+			],
+			[
+				"m",
+				"module_dir"
+			],
+			[
+				"new",
+				"newsletter"
+			],
+			[
+				"module",
+				"module_name"
+			],
+			[
+				"error",
+				"error_log"
+			],
+			[
+				"SMS",
+				"SMSHARE_HOST"
+			],
+			[
+				"re",
+				"REQUEST_PATH_SHARELINK"
+			],
+			[
+				"request",
+				"REQUEST_PATH_SMS_BULK"
+			],
+			[
+				"smshare",
+				"smshare_json"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"destion",
+				"destinations"
+			],
+			[
+				"ini",
+				"initNCM"
+			],
+			[
+				"autho",
+				"authorisation"
+			],
+			[
+				"FCbk",
+				"FCBKcomplete"
+			],
+			[
+				"local",
+				"localStorage"
+			],
+			[
+				"hid",
+				"hideGlassPane"
+			],
+			[
+				"texts",
+				"textStatus"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"ifram",
+				"websocket-iframe"
+			],
+			[
+				"t",
+				"throttle	Throttled function"
+			],
+			[
+				"s",
+				"singleton	JS singleton pattern"
+			],
+			[
+				"f",
+				"fun	Function"
+			],
+			[
+				"chan",
+				"channelId"
+			],
+			[
+				"sa",
+				"saved_contacts"
+			],
+			[
+				"conta",
+				"contacts"
+			],
+			[
+				"_",
+				"_HTML"
+			],
+			[
+				"saved",
+				"savedContact"
+			],
+			[
+				"post",
+				"post_desk_ntfc_success"
+			],
+			[
+				"O",
+				"OptionView"
+			],
+			[
+				"long",
+				"longURL"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.js",
+			"settings":
+			{
+				"buffer_size": 2004,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "export.js",
+			"settings":
+			{
+				"buffer_size": 2028,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 54.0,
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/media/disk2/tmp/wpt-node/output/2014-12-05-04-04-12/leboncoin/141205_4Q_S1J-sans-wope.json",
+		"/home/reda/oc-demo-sites/public/demo_4122a/catalog/language/english/account/email_active.php",
+		"/home/reda/oc-demo-sites/public/demo_4122a/vqmod/vqcache/vq2-catalog_model_account_activate.php",
+		"/home/reda/oc-demo-sites/public/demo_4122a/vqmod/vqcache/vq2-catalog_controller_module_smshare_sms_confirm_at_register.php",
+		"/home/reda/oc-demo-sites/public/demo_4122a/catalog/controller/account/activate.php",
+		"/home/reda/oc-demo-sites/public/demo_4122a/vqmod/vqcache/vq2-catalog_model_account_customer.php",
+		"/home/reda/tmp/smshareforopencart/install.sh",
+		"/home/reda/Téléchargements/PrestaShop-1.5.6.0/classes/Tools.php",
+		"/home/reda/oc-demo-sites/public/demo_4122a/catalog/view/theme/default/template/account/activate.tpl",
+		"/home/reda/oc-demo-sites/public/demo_4122a/vqmod/vqcache/vq2-catalog_view_theme_default_template_account_register.tpl",
+		"/home/reda/oc-demo-sites/public/demo_4122a/catalog/controller/account/account.php",
+		"/home/reda/tmp/smshareforopencart/src/core/public/readme.md",
+		"/home/reda/oc-demo-sites/public/demo_53ec9/catalog/language/english/account/success.php",
+		"/home/reda/oc-demo-sites/public/demo_53ec9/catalog/view/theme/default/template/information/contact.tpl",
+		"/home/reda/oc-demo-sites/public/demo_53ec9/catalog/controller/amazon/listing_report.php",
+		"/home/reda/tmp/smshareforopencart/test_function.sh",
+		"/media/disk2/Dropbox/box/opencart/fahad-topstore/vq2-admin_controller_sale_order.php",
+		"/home/reda/tmp/kiko/vqmod/xml/admin_quick_edit.xml",
+		"/home/reda/tmp/kiko/content_bottom.php",
+		"/home/reda/tmp/kiko/customer.php",
+		"/home/reda/tmp/kiko/vqmod/xml/caching.xml",
+		"/home/reda/tmp/kiko/4_Thu.log",
+		"/home/reda/tmp/kiko/extension.php",
+		"/home/reda/tmp/kiko/vq2-catalog_controller_common_content_bottom.php",
+		"/home/reda/tmp/kiko/contact.php",
+		"/home/reda/tmp/kiko/vq2-admin_model_sale_customer.php",
+		"/home/reda/tmp/kiko/vq2-admin_view_template_sale_customer_list.tpl",
+		"/media/disk2/Dropbox/box/opencart/kun/smshare_sms.php",
+		"/media/disk2/Dropbox/box/opencart/kun/smshare_helper.php",
+		"/media/disk2/Dropbox/box/opencart/kun/smshare_net.php",
+		"/media/disk2/Dropbox/box/opencart/kun/php.ini",
+		"/home/reda/tmp/kiko/vqmod/xml/vqmod_admin_saved_cart.xml",
+		"/home/reda/tmp/kiko/vq2-admin_controller_sale_customer.php",
+		"/home/reda/tmp/kiko/vqmod/vqcache/vq2-admin_view_template_sale_customer_list.tpl",
+		"/home/reda/tmp/kiko/vqmod_smshare_newsletter_customers_filter.xml",
+		"/var/www/opencart_v1.5.4/upload/admin/controller/sale/customer.php",
+		"/var/www/opencart_v1.5.4/upload/admin/model/sale/customer.php",
+		"/home/reda/tmp/smshareforopencart/src/core/smshare_module_common/admin/view/javascript/smshare.js",
+		"/home/reda/tmp/smshareforopencart/src/core/smshare_module_common/system/helper/smshare_helper.php",
+		"/media/disk2/Dropbox/box/opencart/kiko/MailChimp Integration v156.1/upload/vqmod/xml/mailchimp_integration.xml",
+		"/var/www/opencart_v1.5.4/upload/catalog/controller/module/smshare_newsletter.php",
+		"/home/reda/tmp/smshareforopencart/gulpfile.js",
+		"/home/reda/tmp/smshareforopencart/node_modules/gulp/node_modules/liftoff/node_modules/findup-sync/node_modules/glob/glob.js",
+		"/home/reda/tmp/smshareforopencart/src/affiliate/vqmod/xml/vqmod_smshare_affiliate.xml",
+		"/home/reda/tmp/smshareforopencart/smshare_update.php",
+		"/home/reda/tmp/smshareforopencart/sfo.sublime-project",
+		"/home/reda/tmp/smshareforopencart/readme.txt",
+		"/home/reda/tmp/smshareforopencart/smshare_module_common/admin/controller/sale/smshare_sms.php",
+		"/home/reda/tmp/smshareforchrome/src/bootstrap/js/bg/composer.js",
+		"/home/reda/tmp/smshareforchrome/src/bootstrap/lib/nprogress/nprogress.css",
+		"/home/reda/tmp/smshareforchrome/.settings/org.eclipse.wst.jsdt.ui.superType.container",
+		"/home/reda/tmp/smshareforchrome/src/_locales/en/messages.json",
+		"/home/reda/tmp/smshareforchrome/src/bootstrap/js/composer.js",
+		"/home/reda/tmp/smshareforchrome/src/bootstrap/js/signin.js",
+		"/home/reda/tmp/smshareforchrome/src/bootstrap/js/options.js",
+		"/home/reda/tmp/smshareforchrome/src-test/httpServiceTest.js",
+		"/home/reda/tmp/smshareforchrome/src/js/httpService.js",
+		"/home/reda/tmp/smshareforchrome/src/_locales/zh/messages.json",
+		"/home/reda/tmp/smshareforchrome/src/_locales/fr/messages.json",
+		"/home/reda/tmp/smshareforchrome/src/bootstrap/js/bg/ntfc.js",
+		"/home/reda/tmp/smshareforchrome/src/bootstrap/js/bg/socket.js",
+		"/home/reda/tmp/smshareforchrome/src/js/common.js",
+		"/home/reda/tmp/smshareforchrome/src/js/background/background.js",
+		"/home/reda/tmp/smshareforchrome/src/background.html",
+		"/home/reda/tmp/smshareforchrome/src/js/options.js",
+		"/home/reda/tmp/smshareforchrome/src/bootstrap/js/widget-loader-fcbk-mobiscroll.js",
+		"/home/reda/tmp/smshareforchrome/src/bootstrap/html/options.html",
+		"/home/reda/tmp/smshareforchrome/src/bootstrap/js/ui.js",
+		"/home/reda/tmp/smshareforchrome/src/bootstrap/js/conv/conv.js",
+		"/home/reda/tmp/smshareforchrome/src/manifest.json",
+		"/home/reda/tmp/smshareforchrome/src/js/constants.js",
+		"/home/reda/tmp/smshareforchrome/src/bootstrap/html/conv.html",
+		"/home/reda/tmp/smshareforchrome/src/bootstrap/js/convs/convs.js",
+		"/home/reda/tmp/smshareforchrome/src/bootstrap/html/composer.html",
+		"/home/reda/tmp/smshareforchrome/src/bootstrap/js/composer-crx.js",
+		"/home/reda/tmp/smshareforchrome/src/bootstrap/html/convs.html",
+		"/home/reda/tmp/smshare-server-modules/smshare-webapp/src/main/webapp/assets/js/smshare/composer/composer.js",
+		"/home/reda/tmp/smshare-server-modules/smshare-webapp/src/main/webapp/assets/js/smshare/composer/widget-loader-fcbk-mobiscroll.js",
+		"/home/reda/tmp/smshareforchrome/src/bootstrap/lib/fcbkcomplete/jquery.fcbkcomplete.js",
+		"/home/reda/tmp/smshareforchrome/src/bootstrap/js/uservoice.js",
+		"/home/reda/tmp/smshare-server-modules/smshare-webapp/src/main/webapp/assets/js/smshare/composer/sms.js",
+		"/home/reda/tmp/smshareforchrome/.settings/org.eclipse.wst.jsdt.ui.superType.name",
+		"/home/reda/tmp/smshareforchrome/src/js/inbox.js",
+		"/home/reda/tmp/smshareforchrome/src/inbox.html",
+		"/home/reda/tmp/smshareforchrome/src/stylesheets/common.css",
+		"/home/reda/tmp/smshareforchrome/src/js/popup.js",
+		"/home/reda/tmp/smshareforchrome/src/bootstrap/lib/bootstrap/css/sticky-footer-navbar.css",
+		"/home/reda/tmp/smshareforchrome/src/bootstrap/img/logo/logo-bleu2.png",
+		"/home/reda/tmp/smshareforchrome/.settings/org.eclipse.wst.common.project.facet.core.xml",
+		"/home/reda/tmp/smshareforchrome/smshareForChrome.sublime-project",
+		"/home/reda/tmp/smshareforchrome/.settings/org.eclipse.wst.common.component",
+		"/home/reda/tmp/smshareforchrome/src/bootstrap/js/net.js",
+		"/home/reda/tmp/smshareforchrome/src/bootstrap/js/top-nav.js",
+		"/home/reda/tmp/smshareforchrome/src/bootstrap/lib/backbone.js",
+		"/home/reda/tmp/smshareforchrome/src/stylesheets/options.css",
+		"/home/reda/tmp/smshareforchrome/src/js/dao.js",
+		"/home/reda/tmp/smshareforchrome/src/bootstrap/js/popup-deleteme.js",
+		"/home/reda/tmp/smshareforchrome/switch_mod.sh",
+		"/home/reda/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/reda/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/reda/Téléchargements/html5-boilerplate-4.3.0/index.html",
+		"/home/reda/tmp/smshareforchrome/src/js/topnav.js",
+		"/home/reda/tmp/smshareforchrome/src/popup.html",
+		"/home/reda/tmp/smshareforchrome/src/options.html",
+		"/home/reda/tmp/smshareforchrome/src/js/callback.js",
+		"/home/reda/tmp/smshareforchrome/jsTestDriver.conf",
+		"/home/reda/tmp/smshareforchrome/src/js/lib/old/jquery.tools.min.js",
+		"/media/disk2/Dropbox/tcv.md",
+		"/home/reda/tmp/memotrain-pebble/src/memotrain.c"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"data",
+			"resultBySite",
+			"lbc",
+			"leboncoin",
+			"?>",
+			"<li><a href=\"<?php echo $contact; ?>\"><?php echo $text_contact; ?></a></li>",
+			"contact",
+			"text_contac",
+			"$data['text_contact'] = $this->language->get('text_contact');",
+			"contact",
+			"marketing",
+			"entry-sandbox",
+			"package",
+			"text_customer_active_email",
+			"$this->data['text_message']",
+			"text_email_active",
+			"catalog/model/account/customer.php",
+			"if (!$customer_group_info['approval']) {",
+			"public function addCustomer($data) {",
+			"public function editCustomer($data) {",
+			"getCustomerByEmail",
+			"unset($this->session->data['guest']);",
+			"$this->customer->login($this->request->post['email'], $this->request->post['password']);",
+			"$this->model_account_customer->addCustomer($this->request->post);",
+			"$this->data['text_message'] = sprintf($this->language->get('text_email_active'), $this->config->get('config_name'), $this->url->link('information/contact'));",
+			"$this->data['text_message'] = sprintf($this->language->get('text_message'), $this->url->link('information/contact'));",
+			"issubmit",
+			"redirect",
+			"remove",
+			"$this->error['telephone'] = $this->language->get('error_telephone');",
+			"telephon",
+			"validate",
+			"text_email_active",
+			"An activation email sent to your provided email, you need to activate your account from your email",
+			"if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/account/activate.tpl')) {",
+			"confirm_success_message",
+			"$this->data['text_message'] = $this->language->get('confirm_success_message');",
+			"$this->data['text_message'] = $this->language->get('confirm_success_message');	",
+			"$this->model_account_activate->updateCustomer($passkey);",
+			"$this->db->query(\"UPDATE \" . DB_PREFIX . \"customer SET confirm_code = '' WHERE confirm_code = '\" . $this->db->escape($passkey) . \"'\");",
+			"confirm_success_message",
+			"contact us",
+			"passkey",
+			"$this->db->query(\"UPDATE \" . DB_PREFIX . \"customer SET approved = '1', status = '1' WHERE confirm_code = '\" . $this->db->escape($passkey) . \"'\");",
+			"public function updateCustomer($passkey) {",
+			"approved",
+			"passkey",
+			"text_customer_active_email",
+			"clip",
+			"select_click_handler",
+			"$quote_data[$result['code']] = array(",
+			"'error'      => $quote['error']",
+			"zajil_additional_note",
+			"method",
+			"method_data",
+			"text",
+			"-d",
+			"(isset($data['notify']) ? (int)$data['notify'] : 0)",
+			"notif",
+			"is_notif",
+			"error['firstname']",
+			"validate",
+			"error_bad_confirmation_code",
+			"validate",
+			"logout",
+			"status",
+			"enabled",
+			"$this->redirect($this->url->link('account/success'));",
+			"login",
+			"$this->model_account_customer->addCustomer($this->request->post);",
+			"mail",
+			"sms",
+			"direction",
+			"is_notif",
+			"MOD_HOME",
+			"DEMO_SITE_HOSTNAME",
+			"sites.smshare.fr",
+			"sendSMSList",
+			"$this->data['filter_approved'] = $filter_approved;",
+			"approved",
+			"filter_approved",
+			"approved",
+			"admin/view/template/sale/customer_list.tpl",
+			"<td class=\"left\"><?php echo $customer['approved']; ?></td>",
+			"<td class=\"left\"><?php if ($sort == 'c.approved') { ?>",
+			"admin/view/template/sale/customer_list.tpl",
+			"<td class=\"left\"><?php if ($sort == 'c.approved') { ?>",
+			"smshare",
+			"admin/view/template/sale/customer_list.tpl",
+			"<td class=\"left\"><?php if ($sort == 'c.approved') { ?>",
+			"smshare",
+			"encode",
+			"filter_status",
+			"$url .= '&filter_status=' . $this->request->get['filter_status'];",
+			"smshare",
+			"$implode[] = \"newsletter = '\" . (int)$data['filter_newsletter'] . \"'\";",
+			"if (isset($data['filter_newsletter']) && !is_null($data['filter_newsletter'])) {",
+			"$implode[] = \"c.newsletter = '\" . (int)$data['filter_newsletter'] . \"'\";",
+			"filter_newsletter",
+			"column_approved",
+			"approved",
+			"filter_approved",
+			"if (isset($this->request->get['filter_approved'])) {",
+			"$url .= '&filter_approved=' . $this->request->get['filter_approved'];",
+			"if (isset($this->request->get['filter_approved'])) {",
+			"$url .= '&filter_approved=' . $this->request->get['filter_approved'];",
+			"if (isset($this->request->get['filter_approved'])) {\n				$url .= '&filter_approved=' . $this->request->get['filter_approved'];\n			}",
+			"if (isset($this->request->get['filter_approved'])) {",
+			"$url = '';",
+			"if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validateForm()) {",
+			"if (isset($this->request->get['filter_approved'])) {",
+			"xxx",
+			"sendSMSList",
+			"oldSendSMSList",
+			"email_total",
+			"newsletter",
+			"text_newsletter",
+			"if ($to == 'newsletter')",
+			"carousel",
+			"carousel_module",
+			"carousel",
+			"php",
+			"error_log",
+			"post_json",
+			"sendSMSList",
+			"SmshareCommons",
+			"smshare.fr",
+			"scheduleHideGlassPane"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"smshare_newsletter",
+			"Pub.Socket.invoke",
+			"_Net.success",
+			"Tv.Composer.crx.cleanLocalStorage",
+			"_autofill_from_query_parameters_or_fallback_to_local_storage",
+			"_autofillFromLocalStorage",
+			"_setupOnInjectCurrentLinkClick",
+			"_autoSave",
+			"_updateCharacterCount",
+			"_smsBodyEventListener",
+			"_onFormSubmit",
+			"_closeAfterSend",
+			"BODY_LENGTH",
+			"_$charCounter",
+			"self.Cs",
+			"Tv.Bg.Socket.timeoutId",
+			"get",
+			"Tv.Composer.$charCounter"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2004,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1468,
+								1468
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 561.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "export.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2028,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								167,
+								167
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "main.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"cu",
+				"~/oc-demo-sites/public/demo_scar_email/catalog/model/account/customer.php"
+			],
+			[
+				"cust",
+				"~/oc-demo-sites/public/demo_scar_email/catalog/model/account/customer.php"
+			],
+			[
+				"regi",
+				"~/oc-demo-sites/public/demo_scar_email/catalog/controller/account/register.php"
+			],
+			[
+				"ac",
+				"~/oc-demo-sites/public/demo_4122a/catalog/controller/account/activate.php"
+			],
+			[
+				"succ",
+				"~/oc-demo-sites/public/demo_4122a/catalog/controller/account/success.php"
+			],
+			[
+				"",
+				"~/oc-demo-sites/public/demo_4122a/catalog/language/english/account/email_active.php"
+			],
+			[
+				"act",
+				"~/oc-demo-sites/public/demo_4122a/catalog/model/account/activate.php"
+			],
+			[
+				"acti",
+				"~/oc-demo-sites/public/demo_4122a/catalog/controller/account/activate.php"
+			],
+			[
+				"inst",
+				"~/tmp/smshareforopencart/install.sh"
+			],
+			[
+				"re",
+				"~/oc-demo-sites/public/demo_53ec9/catalog/controller/account/register.php"
+			],
+			[
+				"ins",
+				"~/tmp/smshareforopencart/install.sh"
+			],
+			[
+				"gul",
+				"gulpfile.js"
+			],
+			[
+				"vqm",
+				"src/core/smshare_module_common/vqmod/xml/vqmod_smshare.xml"
+			],
+			[
+				"smshare_hel",
+				"src/core/smshare_module_common/system/helper/smshare_helper.php"
+			],
+			[
+				"smshare_sms",
+				"src/core/smshare_module_common/admin/controller/sale/smshare_sms.php"
+			],
+			[
+				"ui",
+				"src/bootstrap/js/ui.js"
+			],
+			[
+				"com",
+				"src/bootstrap/js/composer.js"
+			],
+			[
+				"ntfc",
+				"src/bootstrap/js/bg/ntfc.js"
+			],
+			[
+				"composer",
+				"src/bootstrap/js/composer.js"
+			],
+			[
+				"common",
+				"src/js/common.js"
+			],
+			[
+				"const",
+				"src/js/constants.js"
+			],
+			[
+				"bac",
+				"src/js/background/background.js"
+			],
+			[
+				"hear",
+				"src/js/background/heartbeat.js"
+			],
+			[
+				"ba",
+				"src/js/background/background.js"
+			],
+			[
+				"soc",
+				"src/bootstrap/js/bg/socket.js"
+			],
+			[
+				"sign",
+				"src/bootstrap/js/signin.js"
+			],
+			[
+				"option",
+				"src/js/options.js"
+			],
+			[
+				"http",
+				"src/js/httpService.js"
+			],
+			[
+				"man",
+				"src/manifest.json"
+			],
+			[
+				"comon",
+				"src/js/common.js"
+			],
+			[
+				"socket",
+				"src/bootstrap/js/bg/socket.js"
+			],
+			[
+				"back",
+				"src/js/background/background.js"
+			],
+			[
+				"main",
+				"src/bootstrap/css/main.css"
+			],
+			[
+				"conv",
+				"src/bootstrap/js/conv/conv.js"
+			],
+			[
+				"ui.js",
+				"src/bootstrap/js/ui.js"
+			],
+			[
+				"mess",
+				"src/_locales/en/messages.json"
+			],
+			[
+				"comm",
+				"src/js/common.js"
+			],
+			[
+				"cons",
+				"src/js/constants.js"
+			],
+			[
+				"sms",
+				"src/bootstrap/js/sms.js"
+			],
+			[
+				"compo",
+				"src/bootstrap/html/composer.html"
+			],
+			[
+				"con",
+				"src/js/constants.js"
+			],
+			[
+				"manif",
+				"src/manifest.json"
+			],
+			[
+				"m",
+				"src/_locales/fr/messages.json"
+			],
+			[
+				"mes",
+				"src/_locales/fr/messages.json"
+			],
+			[
+				"sms.js",
+				"src/bootstrap/js/sms.js"
+			],
+			[
+				"sock",
+				"src/bootstrap/js/bg/socket.js"
+			],
+			[
+				"bak",
+				"src/js/background/background.js"
+			],
+			[
+				"data",
+				"src/js/database.js"
+			],
+			[
+				"opt",
+				"src/bootstrap/js/options.js"
+			],
+			[
+				"popup",
+				"src/js/popup.js"
+			],
+			[
+				"popup.js",
+				"src/js/popup.js"
+			],
+			[
+				"constant",
+				"src/js/constants.js"
+			],
+			[
+				"common.js",
+				"src/js/common.js"
+			],
+			[
+				"topnav",
+				"src/js/topnav.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 333.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
